@@ -797,5 +797,6 @@
   <include name="snippets/nad.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/aospa.xml" />
+  <include name="snippets/priv.xml" />
 
 </manifest>
