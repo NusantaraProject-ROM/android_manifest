@@ -128,6 +128,7 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="nad" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="nad" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="nad" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
