@@ -12,6 +12,10 @@
         fetch="https://github.com/Nusantara-ROM/"
         revision="refs/heads/10" />
 
+<remote name="device"
+        fetch="https://github.com/NusantaraROM-devices/"
+        revision="10" />
+
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
