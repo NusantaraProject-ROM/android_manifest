@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Github remote -->
 <remote name="gh"
         fetch="https://github.com/" />
 
+<remote  name="ghpriv"
+         fetch="ssh://git@github.com/" />
+	
 <!-- Gitlab remote -->
 <remote  name="gitlab"
            fetch="https://gitlab.com/" />
