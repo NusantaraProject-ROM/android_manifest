@@ -71,6 +71,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8916/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8952/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
@@ -89,6 +91,9 @@
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" remote="nad" revision="10-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" remote="nad" revision="10-msm8916" />
   <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" remote="nad" revision="10-msm8916" />
+  <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" remote="nad" revision="10-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" remote="nad" revision="10-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" remote="nad" revision="10-msm8952" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="nad" revision="10-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="nad" revision="10-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="nad" revision="10-sm8150" />
