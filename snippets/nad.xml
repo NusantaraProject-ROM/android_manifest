@@ -17,7 +17,7 @@
         revision="refs/heads/10" />
 
 <remote name="device"
-        fetch="https://github.com/NusantaraROM-devices/"
+        fetch="ssh://git@github.com/NusantaraROM-devices/"
         revision="10" />
 
   <project path="art" name="android_art" remote="nad" />
