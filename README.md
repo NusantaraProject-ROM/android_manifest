@@ -11,3 +11,8 @@ repo init -u ssh://git@github.com/Nusantara-ROM/android.git -b refs/tags/<tags>
 ```bash
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
 ```
+
+# Lunch Command # 
+```bash
+mka nad -j
+```
