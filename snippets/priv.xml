@@ -33,7 +33,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="priv" /> 
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="priv" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="priv" />
-  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="priv" />
+  <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="priv" />
 
   <!-- Vendor -->
   <project path="vendor/themes" name="android_vendor_themes" remote="priv" />
