@@ -151,6 +151,7 @@
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
