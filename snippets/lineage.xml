@@ -16,4 +16,6 @@
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
 
+  <!-- System -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
 </manifest>
