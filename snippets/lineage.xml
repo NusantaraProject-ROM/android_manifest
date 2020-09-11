@@ -20,6 +20,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
   <project path="external/ppp" name="android_external_ppp" remote="lineage" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
