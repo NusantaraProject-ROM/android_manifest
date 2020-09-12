@@ -34,6 +34,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nad" />
   <project path="hardware/nad/interfaces" name="android_hardware_nad_interfaces" remote="nad" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nad" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nad" />
