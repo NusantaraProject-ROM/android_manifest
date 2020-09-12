@@ -23,6 +23,9 @@
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
 
+  <!-- External -->
+  <project path="external/selinux" name="android_external_selinux" remote="nad" />
+
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
@@ -45,6 +48,9 @@
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8998" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="nad" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
 
   <!-- Sepolicy -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
