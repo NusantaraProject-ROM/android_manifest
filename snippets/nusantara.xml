@@ -8,7 +8,7 @@
            sync-j="16" />
 
   <!-- Device remote -->
-  <remote  name="devices"
+  <remote  name="device"
            fetch="ssh://git@github.com/NusantaraROM-devices/"
            revision="11" />
 
