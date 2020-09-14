@@ -82,6 +82,7 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
