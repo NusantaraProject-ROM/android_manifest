@@ -26,6 +26,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="priv" />
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="priv" />
   <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="priv" /> 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="priv" /> 
 
