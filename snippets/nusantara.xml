@@ -81,6 +81,7 @@
   <project path="system/bt" name="android_system_bt" remote="nad" />
   <project path="system/core" name="android_system_core" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
+  <project path="system/vold" name="android_system_vold" remote="nad" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="nad" />
 
   <!-- Vendor -->
