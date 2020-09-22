@@ -20,11 +20,14 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
+  <project path="tools/metalava" name="android_tools_metalava" remote="nad" />
 
   <!-- External -->
+  <project path="external/guice" name="android_external_guice" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
 
@@ -78,6 +81,7 @@
   <project path="system/bt" name="android_system_bt" remote="nad" />
   <project path="system/core" name="android_system_core" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="nad" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />

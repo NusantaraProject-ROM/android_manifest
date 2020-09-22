@@ -51,13 +51,16 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- Etc -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/tools/metalava" />
 
   <!-- External -->
+  <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
@@ -93,5 +96,6 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/incremental_delivery" />
 
 </manifest>
