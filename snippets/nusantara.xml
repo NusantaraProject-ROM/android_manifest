@@ -90,5 +90,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nad" />
+  <project path="vendor/google/gms" name="AOSPA/android_vendor_google_gms" remote="gitlab" />
+  <project path="vendor/google/pixel" name="ThankYouMario/android_vendor_google_pixel" remote="github" />
 
 </manifest>
