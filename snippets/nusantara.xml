@@ -74,6 +74,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
+  <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
 
   <!-- Sepolicy -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
