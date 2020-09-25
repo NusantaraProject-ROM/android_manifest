@@ -27,6 +27,7 @@
   <project path="tools/metalava" name="android_tools_metalava" remote="nad" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
   <project path="external/guice" name="android_external_guice" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />

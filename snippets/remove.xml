@@ -60,6 +60,7 @@
   <remove-project name="platform/tools/metalava" />
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/selinux" />
