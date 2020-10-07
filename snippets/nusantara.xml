@@ -16,6 +16,11 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <!-- Github SSH remote -->
+  <remote  name="ghpriv"
+           fetch="ssh://git@github.com/"
+           />
+
   <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
