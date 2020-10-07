@@ -4,6 +4,10 @@
   <remote  name="priv"
            fetch="ssh://git@github.com/Nusantara-ROM"
            revision="11" />
+  
+  <remote  name="ghpriv"
+           fetch="ssh://git@github.com/"
+           />
 
   <!-- Build -->
   <project path="build/make" name="android_build" remote="priv" >
