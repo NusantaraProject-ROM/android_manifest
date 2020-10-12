@@ -68,6 +68,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/platform_testing" />
   <remove-project name="platform/tools/metalava" />
 
   <!-- External -->

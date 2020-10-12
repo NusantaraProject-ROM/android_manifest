@@ -24,6 +24,7 @@
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
+  <project path="platform_testing" name="android_platform_testing" remote="nad" />
   <project path="tools/metalava" name="android_tools_metalava" remote="nad" />
 
   <!-- External -->
