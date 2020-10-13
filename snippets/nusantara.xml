@@ -29,6 +29,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="nad" />
   <project path="external/guice" name="android_external_guice" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
