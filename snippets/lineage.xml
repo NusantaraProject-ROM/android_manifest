@@ -36,6 +36,7 @@
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-17.1" />
