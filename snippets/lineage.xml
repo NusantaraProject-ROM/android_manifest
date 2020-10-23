@@ -12,6 +12,7 @@
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage"/>
+  <project path="external/connectivity" name="android_external_connectivity" remote="lineage"/>
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
