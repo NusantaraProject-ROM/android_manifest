@@ -37,5 +37,4 @@
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="priv" />
   <project path="vendor/themes" name="android_vendor_themes" remote="priv" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="priv" />
 </manifest>
