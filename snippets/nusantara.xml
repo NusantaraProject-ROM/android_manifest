@@ -100,6 +100,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="nad" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy-legacy-um-new" name="android_device_qcom_sepolicy-legacy-um" remote="nad" revision="11-new" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="nad" />
