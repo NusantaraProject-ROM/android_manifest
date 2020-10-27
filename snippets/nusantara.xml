@@ -34,6 +34,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/motorola/faceunlock" name="NusantaraProject/external_faceunlock" remote="gitlab" revision="11" />
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
