@@ -74,6 +74,7 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="nad" revision="11-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="nad" revision="11-sm8150" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="nad" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nad" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nad" />
