@@ -47,7 +47,6 @@
   <project path="hardware/nad/interfaces" name="android_hardware_nad_interfaces" remote="nad" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nad" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nad" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="nad" />
 
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="nad" >
     <!-- add guard for AOSP hardware/qcom dir -->
