@@ -13,6 +13,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage"/>
   <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="lineage" revision="master" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage"/>
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage"/>
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage"/>
   <project path="external/htop" name="android_external_htop" remote="lineage" />
