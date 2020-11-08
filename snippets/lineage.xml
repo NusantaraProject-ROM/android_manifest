@@ -9,6 +9,8 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
+  <project path="external/aac" name="android_external_aac" remote="lineage" />
+  <project path="external/libexif" name="android_external_libexif" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
@@ -52,6 +54,7 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" remote="lineage" />
+  <project path="system/nfc" name="android_system_nfc" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
