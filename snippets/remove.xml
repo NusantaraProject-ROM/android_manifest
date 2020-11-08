@@ -97,6 +97,8 @@
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/libexif" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -195,6 +197,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
