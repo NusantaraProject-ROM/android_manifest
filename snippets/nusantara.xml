@@ -108,6 +108,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="nad" />
 
   <!-- Vendor -->
