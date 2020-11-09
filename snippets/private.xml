@@ -38,4 +38,5 @@
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="priv" />
   <project path="vendor/themes" name="android_vendor_themes" remote="priv" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="priv" />
 </manifest>
