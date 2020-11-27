@@ -126,5 +126,6 @@
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nad" />
-
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="nad" />
+  
 </manifest>
