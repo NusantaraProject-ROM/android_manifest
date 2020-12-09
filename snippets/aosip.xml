@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/ten" />
+
+  <project path="external/libaom" name="platform_external_libaom" remote="aosip" />
+
+</manifest>
