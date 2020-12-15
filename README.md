@@ -1,18 +1,24 @@
-# Initialize Local Repository #
+Getting started with NusantaraProject
+====================
+
+![NusantaraProject](https://github.com/NusantaraProject-ROM/Nusantara/blob/master/goodies/banner.png?raw=true)
+
+Initialize Local Repository
+-------------
 ```bash
-repo init -u ssh://git@github.com/Nusantara-ROM/android.git -b 10
-
-# else if you want to sync with specific tags (this also specific features inline with selected tag version)
-
-repo init -u ssh://git@github.com/Nusantara-ROM/android.git -b refs/tags/<tags>
+  repo init -u https://github.com/NusantaraProject-ROM/android_manifest -b 10
 ```
 
-# Syncing Repository # 
+Syncing Repository
+-------------
 ```bash
-repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
+  repo sync -c --force-sync --no-tags --no-clone-bundle
 ```
 
-# Lunch Command # 
+Lunch Command
+-------------
 ```bash
-mka nad -j
+  . build/envsetup.sh
+  lunch nad_<device_codename>-buildtype
+  mka nad -j
 ```

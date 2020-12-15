@@ -5,20 +5,33 @@
 <remote name="gh"
         fetch="https://github.com/" />
 
-<remote  name="ghpriv"
-         fetch="ssh://git@github.com/" />
-	
 <!-- Gitlab remote -->
 <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 		
 <remote name="nad"
-        fetch="https://github.com/Nusantara-ROM/"
+        fetch="https://github.com/NusantaraProject-ROM/"
         revision="refs/heads/10" />
 
 <remote name="device"
-        fetch="ssh://git@github.com/NusantaraROM-devices/"
+        fetch="https://github.com/NusantaraROM-devices/"
         revision="10" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="nad" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+
+  <project path="build/soong" name="android_build_soong" remote="nad" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
@@ -43,13 +56,15 @@
   <project path="external/pulse" name="android_external_pulse" remote="nad" />
   <project path="external/zlib" name="android_external_zlib" remote="nad" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
-  <project path="external/bromite-webview" name="android_external_bromite-webview" remote="nad" revision="master" />
+  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
 
   <!-- Device -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
@@ -121,7 +136,7 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nad" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="nad" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" clone-depth="1" />
-  <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="nad" revision="master" />
+  <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="nad" revision="10" />
 
   <!-- Packages -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="nad" />
@@ -150,6 +165,11 @@
   <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="nad" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="nad" />
   <project path="packages/apps/Matlog" name="android_packages_apps_MatLog" remote="nad" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="nad" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="nad" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
+  <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="nad" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
@@ -160,5 +180,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
   <project path="vendor/pixelgapps" name="Genkzsz11/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
-
+  <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
+  <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
 </manifest>
