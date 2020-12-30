@@ -31,6 +31,7 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="nad" />
   <project path="external/guice" name="android_external_guice" remote="nad" />
+  <project path="external/pulse" name="android_external_pulse" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/motorola/faceunlock" name="NusantaraProject/external_faceunlock" remote="gitlab" revision="11" />
