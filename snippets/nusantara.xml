@@ -67,16 +67,12 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8998" />
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="nad" revision="11-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="nad" revision="11-sm8150" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="nad" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nad" />
 
