@@ -39,6 +39,21 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8966/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sm8250" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
 
   <!-- Packages -->
