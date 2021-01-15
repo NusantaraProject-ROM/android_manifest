@@ -14,5 +14,9 @@ repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
 
 # Lunch Command # 
 ```bash
+. build/envsetup.sh
+
+lunch nad_$device-userdebug
+
 mka nad -j
 ```
