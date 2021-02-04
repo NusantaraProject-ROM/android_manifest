@@ -47,6 +47,7 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
+  <project path="external/libavc" name="android_external_libavc" remote="nad" />
   <project path="external/libhevc" name="android_external_libhevc" remote="nad" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="nad" />
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />

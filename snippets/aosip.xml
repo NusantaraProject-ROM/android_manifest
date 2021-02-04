@@ -9,7 +9,6 @@
   <project path="external/freetype" name="platform_external_freetype" remote="aosip" />
   <project path="external/libaom" name="platform_external_libaom" remote="aosip" />
   <project path="external/libexif" name="platform_external_libexif" remote="aosip" />
-  <project path="external/libavc" name="platform_external_libavc" remote="aosip" />
   <project path="external/okhttp" name="platform_external_okhttp" remote="aosip" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="aosip" />
   <project path="frameworks/minikin" name="platform_frameworks_minikin" remote="aosip" />
