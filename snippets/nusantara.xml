@@ -40,6 +40,7 @@
   <project path="external/scudo" name="android_external_scudo" remote="nad" />
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="nad" />
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
