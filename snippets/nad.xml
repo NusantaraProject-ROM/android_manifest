@@ -137,7 +137,7 @@
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nad" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="nad" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" clone-depth="1" />
-  <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="nad" revision="10" />
+  <!--project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="nad" revision="10" /-->
 
   <!-- Packages -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="nad" />
