@@ -12,6 +12,5 @@
   <project path="external/okhttp" name="platform_external_okhttp" remote="aosip" />
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="aosip" />
   <project path="frameworks/minikin" name="platform_frameworks_minikin" remote="aosip" />
-  <project path="system/security" name="platform_system_security" remote="aosip" />
 
 </manifest>
