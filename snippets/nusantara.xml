@@ -35,7 +35,7 @@
   <project path="external/pulse" name="android_external_pulse" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
-  <project path="external/motorola/faceunlock" name="NusantaraProject/external_faceunlock" remote="gitlab" revision="11" />
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
   <project path="external/scudo" name="android_external_scudo" remote="nad" />
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
