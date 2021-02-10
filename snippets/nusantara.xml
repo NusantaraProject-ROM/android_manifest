@@ -26,6 +26,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
   <project path="platform_testing" name="android_platform_testing" remote="nad" />
   <project path="tools/metalava" name="android_tools_metalava" remote="nad" />
+  <project path="libcore" name="android_libcore" remote="nad" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
