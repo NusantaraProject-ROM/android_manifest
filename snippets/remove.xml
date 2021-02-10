@@ -77,6 +77,9 @@
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/cpu_features" />
+  <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/sqlite" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />

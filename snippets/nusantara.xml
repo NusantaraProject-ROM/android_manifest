@@ -51,6 +51,9 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nad" revision="11" />
+  <project path="external/scudo" name="android_external_scudo" remote="nad" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
+  <project path="external/cpu_features" name="android_external_cpu_features" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
