@@ -41,6 +41,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="libcore" name="android_libcore" remote="nad" />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
