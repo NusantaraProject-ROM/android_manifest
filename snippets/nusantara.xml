@@ -63,6 +63,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
+  <project path="frameworks/libs/systemui" name="syberia-project/platform_frameworks_libs_systemui" remote="github" revision="11.0"/>
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nad" />
