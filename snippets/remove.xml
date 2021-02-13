@@ -81,6 +81,7 @@
   <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tinyalsa" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
