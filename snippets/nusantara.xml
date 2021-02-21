@@ -136,6 +136,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="nad" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
+  <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" revision="11"/>
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="nad" />
@@ -162,4 +163,5 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
   <project path="vendor/google/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="11" />
   <project path="vendor/google/pixel" name="NusantaraProject/vendor_google_pixel" remote="gitlab" revision="11" />
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
 </manifest>
