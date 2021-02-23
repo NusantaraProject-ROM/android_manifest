@@ -19,8 +19,8 @@
   <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
-
-<!-- Build -->
+  
+    <!-- Build -->
   <project path="build/make" name="android_build" remote="nad" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -30,17 +30,16 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-
+  <project path="build/soong" name="android_build_soong" remote="nad" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
   <project path="platform_testing" name="android_platform_testing" remote="nad" />
   <project path="tools/metalava" name="android_tools_metalava" remote="nad" />
-  <project path="build/soong" name="android_build_soong" remote="nad" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="libcore" name="android_libcore" remote="nad" />
 
   <!-- External -->
@@ -50,28 +49,28 @@
   <project path="external/pulse" name="android_external_pulse" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
+  <project path="external/motorola/faceunlock" name="NusantaraProject/external_faceunlock" remote="gitlab" revision="11" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
-  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nad" revision="11" />
   <project path="external/scudo" name="android_external_scudo" remote="nad" />
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="nad" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
 
   <!-- Frameworks -->
+  <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nad" />
   <project path="hardware/nad/interfaces" name="android_hardware_nad_interfaces" remote="nad" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nad" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nad" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="nad" >
 
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="nad" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
@@ -116,16 +115,16 @@
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" /> 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="nad" />
-
+  
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="nad" />
@@ -136,7 +135,6 @@
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="nad" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nad" />
-  <project path="device/qcom/sepolicy-legacy-um-new" name="android_device_qcom_sepolicy-legacy-um" remote="nad" revision="11-new" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
 
   <!-- System -->
@@ -152,6 +150,8 @@
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
 
   <!-- Vendor -->
+  <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nad" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nad" />
@@ -161,6 +161,4 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
   <project path="vendor/google/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="11" />
   <project path="vendor/google/pixel" name="NusantaraProject/vendor_google_pixel" remote="gitlab" revision="11" />
-  <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
 </manifest>
