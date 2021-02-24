@@ -129,7 +129,8 @@
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="nad" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
-
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="nad" />
+  
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nad" />
