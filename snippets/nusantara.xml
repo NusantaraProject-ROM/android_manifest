@@ -130,6 +130,7 @@
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="nad" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="nad" />
+  <project path="system/iorap" name="android_system_iorap" remote="nad" />
   
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />

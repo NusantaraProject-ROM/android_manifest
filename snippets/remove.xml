@@ -152,5 +152,6 @@
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/tools/hidl" />
+  <remove-project name="platform/system/iorap" />
 
 </manifest>
