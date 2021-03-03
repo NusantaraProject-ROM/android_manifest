@@ -12,6 +12,7 @@
   <project path="external/aac" name="android_external_aac" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="lineage" revision="master" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
@@ -21,6 +22,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
   <project path="external/ppp" name="android_external_ppp" remote="lineage" />
   <project path="external/sonivox" name="android_external_sonivox" remote="lineage" />
+  <project path="external/v8" name="android_external_v8" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
@@ -51,7 +53,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
 
   <!-- System -->
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" remote="lineage" />
