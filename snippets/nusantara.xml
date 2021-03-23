@@ -83,6 +83,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
@@ -167,7 +168,7 @@
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="nad" />
   <project path="system/iorap" name="android_system_iorap" remote="nad" />
-  
+
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
