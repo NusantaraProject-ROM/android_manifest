@@ -170,6 +170,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nad" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="nad" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
   <project path="vendor/google/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="11" />
   <project path="vendor/google/pixel" name="NusantaraProject/vendor_google_pixel" remote="gitlab" revision="11" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
