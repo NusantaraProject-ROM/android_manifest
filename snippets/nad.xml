@@ -60,6 +60,7 @@
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nad" />
 
   <!-- Frameworks -->
+  <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
@@ -129,6 +130,7 @@
   <project path="system/extras" name="android_system_extras" remote="nad" />
   <project path="system/bt" name="android_system_bt" remote="nad" />
   <project path="system/netd" name="android_system_netd" remote="nad" />
+  <project path="system/nfc" name="android_system_nfc" remote="nad" />
   <project path="system/keymaster" name="android_system_keymaster" remote="nad" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
 
@@ -150,6 +152,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="nad" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="nad" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="nad" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nad" />

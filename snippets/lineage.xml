@@ -58,7 +58,6 @@
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/bpf" name="android_system_bpf" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" remote="lineage" />
-  <project path="system/nfc" name="android_system_nfc" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
