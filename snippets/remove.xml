@@ -131,6 +131,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
 
   <!-- Prebuilts -->
