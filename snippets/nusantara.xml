@@ -8,7 +8,8 @@
            sync-j="16" />
 
   <remote  name="wip"
-           fetch="https://github.com/Nusantara-ROM/" />
+           fetch="https://github.com/Nusantara-ROM/" 
+           revision="11" />
   
   <!-- Device remote -->
   <remote  name="device"
