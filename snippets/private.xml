@@ -34,6 +34,7 @@
   <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="priv" /> 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="priv" /> 
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="priv" />
+  <project path="packages/apps/NusantaraPapers" name="android_packages_apps_NusantaraPapers" remote="priv" />
 
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="priv" />
