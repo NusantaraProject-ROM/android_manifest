@@ -9,5 +9,6 @@
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="aospa" revision="ruby" />
   <project path="external/libpng" name="android_external_libpng" remote="aospa" revision="ruby" />
   <project path="external/zlib" name="android_external_zlib" remote="aospa" revision="ruby" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="aospa" revision="ruby" />
 
 </manifest>
