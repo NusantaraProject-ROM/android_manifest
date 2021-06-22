@@ -50,6 +50,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
+  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="wip" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
   <project path="external/libavc" name="android_external_libavc" remote="nad" />
   <project path="external/libhevc" name="android_external_libhevc" remote="nad" />
@@ -62,6 +63,8 @@
   <project path="external/zlib" name="android_external_zlib" remote="nad" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nad" />
+  <project path="external/v8" name="android_external_v8" remote="wip" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="wip" />
 
   <!-- Frameworks -->
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
@@ -78,7 +81,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nad" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nad" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="wip" />
   <project path="hardware/nad/interfaces" name="android_hardware_nad_interfaces" remote="nad" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="nad" />
   <project path="hardware/ril" name="android_hardware_ril" remote="nad" />
@@ -132,7 +135,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
   <project path="system/extras" name="android_system_extras" remote="nad" />
-  <project path="system/bt" name="android_system_bt" remote="nad" />
+  <project path="system/bt" name="android_system_bt" remote="wip" />
   <project path="system/netd" name="android_system_netd" remote="nad" />
   <project path="system/nfc" name="android_system_nfc" remote="nad" />
   <project path="system/keymaster" name="android_system_keymaster" remote="nad" />
@@ -186,7 +189,7 @@
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nad" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="wip" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
   <project path="vendor/pixelgapps" name="Genkzsz11/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
