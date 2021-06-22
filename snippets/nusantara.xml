@@ -142,6 +142,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
   <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="nad" />
   <project path="packages/apps/NusantaraPapers" name="android_packages_apps_NusantaraPapers" remote="nad" />  
+  <project path="packages/nusantara/fonts" name="android_packages_nusantara_fonts" remote="wip" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
