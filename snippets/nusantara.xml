@@ -116,6 +116,7 @@
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
+  <project path="packages/nusantara/fonts" name="android_packages_nusantara_fonts" remote="nad" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
