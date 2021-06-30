@@ -158,6 +158,7 @@
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/iorap" />
