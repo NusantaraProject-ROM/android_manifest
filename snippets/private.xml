@@ -9,6 +9,8 @@
            fetch="ssh://git@github.com/"
            />
 
+  <project path="android" name="android" remote="priv" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="priv" >
     <copyfile src="core/root.mk" dest="Makefile" />
