@@ -115,6 +115,7 @@
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/net/voip" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -157,6 +158,7 @@
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -215,6 +217,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/libfmq" />
   <remove-project name="platform/system/hardware/interfaces" />
 
 </manifest>

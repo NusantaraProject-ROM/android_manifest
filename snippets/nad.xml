@@ -70,6 +70,7 @@
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
+  <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="wip" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
@@ -139,6 +140,7 @@
   <project path="system/netd" name="android_system_netd" remote="nad" />
   <project path="system/nfc" name="android_system_nfc" remote="nad" />
   <project path="system/keymaster" name="android_system_keymaster" remote="nad" />
+  <project path="system/libfmq" name="android_system_libfmq" remote="wip" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
 
   <!-- Prebuilts -->
@@ -183,6 +185,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="nad" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="wip" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
