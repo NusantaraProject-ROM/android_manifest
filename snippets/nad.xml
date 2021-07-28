@@ -52,7 +52,7 @@
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="wip" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
-  <project path="external/libavc" name="android_external_libavc" remote="nad" />
+  <project path="external/libavc" name="android_external_libavc" remote="wip" />
   <project path="external/libhevc" name="android_external_libhevc" remote="nad" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="nad" />
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
@@ -153,19 +153,19 @@
 
   <!-- Packages -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="nad" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="nad" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="wip" />
   <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="nad" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nad" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="wip" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="nad" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="nad" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="wip" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="nad" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="nad" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nad" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="wip" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="nad" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="nad" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
@@ -191,7 +191,7 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nad" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nad" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="wip" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="wip" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
