@@ -142,6 +142,7 @@
   <project path="system/keymaster" name="android_system_keymaster" remote="nad" />
   <project path="system/libfmq" name="android_system_libfmq" remote="wip" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
