@@ -123,6 +123,7 @@
   <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="nad" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+  <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="nad" revision="master" />
 
   <!-- Sepolicy -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
