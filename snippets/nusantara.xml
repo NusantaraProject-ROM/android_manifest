@@ -108,6 +108,7 @@
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nad" />
+  <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="nad" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
