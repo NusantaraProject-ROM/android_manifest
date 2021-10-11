@@ -77,6 +77,7 @@
   <remove-project name="platform/packages/modules/BootPrebuilt/5.10/arm64" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
