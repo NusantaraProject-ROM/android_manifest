@@ -22,6 +22,7 @@
 
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
+  <project path="libcore" name="android_libcore" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
 
