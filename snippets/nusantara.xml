@@ -42,6 +42,7 @@
   <!-- External -->
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
