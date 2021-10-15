@@ -27,6 +27,9 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
 
   <!-- External -->
+  <project path="external/noto-fonts" name="ProtonAOSP/android_external_noto-fonts" remote="github" revision="sc"/>
+  <project path="external/roboto-fonts" name="ProtonAOSP/android_external_roboto-fonts" remote="github" revision="sc"/>
+  <project path="external/google-fonts/cutive-mono" name="ProtonAOSP/android_external_google-fonts_cutive-mono" remote="github" revision="sc"/>
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
