@@ -145,6 +145,7 @@
   <project path="system/media" name="android_system_media" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
 
   <!-- Vendor -->
