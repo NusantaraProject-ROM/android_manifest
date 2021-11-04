@@ -63,6 +63,7 @@
   <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
 
