@@ -61,6 +61,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
   <project path="external/cpu_features" name="android_external_cpu_features" remote="nad" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
@@ -114,6 +115,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nad" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="nad" />
   <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="nad" />
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="nad" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="nad" />
@@ -122,6 +124,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="nad" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="nad" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="nad" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="nad" />
