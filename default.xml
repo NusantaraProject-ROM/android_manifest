@@ -1094,6 +1094,4 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/nusantara.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/aospa.xml" />
-
 </manifest>

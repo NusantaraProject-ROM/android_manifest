@@ -4,17 +4,13 @@
   <!-- Nusantara remote -->
   <remote  name="nad"
            fetch="https://github.com/NusantaraProject-ROM/"
-           revision="11"
+           revision="12"
            sync-j="16" />
 
-  <remote  name="wip"
-           fetch="https://github.com/Nusantara-ROM/" 
-           revision="11" />
-  
   <!-- Device remote -->
-  <remote  name="device"
-           fetch="https://github.com/NusantaraROM-devices/"
-           revision="11" />
+  <remote  name="devices"
+           fetch="ssh://git@github.com/NusantaraROM-devices/"
+           revision="12" />
 
   <!-- Github remote -->
   <remote  name="github"
@@ -23,8 +19,8 @@
   <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
-  
-    <!-- Build -->
+
+  <!-- Build -->
   <project path="build/make" name="android_build" remote="nad" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -38,41 +34,24 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-  <project path="android" name="android_manifest" remote="nad" />
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="nad" />
-  <project path="platform_testing" name="android_platform_testing" remote="nad" />
-  <project path="tools/metalava" name="android_tools_metalava" remote="nad" />
-  <project path="libcore" name="android_libcore" remote="nad" />
 
   <!-- External -->
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="nad" />
-  <project path="external/guice" name="android_external_guice" remote="nad" />
-  <project path="external/pulse" name="android_external_pulse" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
-  <project path="external/faceunlock" name="android_external_faceunlock" remote="nad" />
-  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
-  <project path="external/perfetto" name="android_external_perfetto" remote="nad" />
-  <project path="external/scudo" name="android_external_scudo" remote="nad" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="nad" />
-  <project path="external/cpu_features" name="android_external_cpu_features" remote="nad" />
-  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
 
   <!-- Frameworks -->
-  <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
-  <project path="frameworks/libs/systemui" name="syberia-project/platform_frameworks_libs_systemui" remote="github" revision="11.0"/>
+  <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nad" />
   <project path="hardware/nad/interfaces" name="android_hardware_nad_interfaces" remote="nad" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nad" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nad" />
@@ -97,102 +76,50 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="wip" revision="11-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="wip" revision="11-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="wip" revision="11-msm8998" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="wip" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="wip" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="wip" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="wip" revision="11-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="wip" revision="11-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="wip" revision="11-sm8250" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="wip" revision="11-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="wip" revision="11-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="wip" revision="11-sdm845" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="wip" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="wip" />
+
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8998" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="11-sm8250" remote="nad" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="11-sm8250" remote="nad" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="11-sm8250" remote="nad" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="nad" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="nad" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="12-sm8150" remote="nad" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="12-sm8150" remote="nad" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="12-sm8150" remote="nad" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="nad" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="nad" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nad" />
-  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="nad" />
-  <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="nad" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="nad" />
-  <project path="packages/apps/WallpaperCropper2" name="android_packages_apps_WallpaperCropper2" remote="nad" />
-  <project path="packages/apps/CustomDoze" name="android_packages_apps_CustomDoze" remote="nad" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nad" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nad" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="nad" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nad" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="nad" />
-  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="nad" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nad" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="nad" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nad" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nad" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nad" />
-  <project path="packages/apps/SoftAPManager" name="Havoc-OS/android_packages_apps_SoftAPManager" remote="github" revision="eleven"/>
-  <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="nad" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nad" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nad" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="nad" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
-  <project path="packages/apps/NusantaraWings" name="android_packages_apps_NusantaraWings" remote="nad" /> 
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nad" /> 
-  <project path="packages/apps/Plugins" name="android_packages_apps_Plugins" remote="nad" />
-  <project path="packages/apps/NusantaraPapers" name="android_packages_apps_NusantaraPapers" remote="nad" />  
-  <project path="packages/nusantara/fonts" name="android_packages_nusantara_fonts" remote="wip" />
-  <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="github" revision="11.0"/>
 
   <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
-  <project path="prebuilts/abi-dumps/ndk" name="android_prebuilts_abi-dumps_ndk" remote="nad" />
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
-  <project path="prebuilts/prebuiltapks" name="NusantaraProject/android_prebuilts_prebuiltapks" remote="gitlab" revision="master" />
 
   <!-- Sepolicy -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="nad" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nad" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
-  <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" revision="11"/>
 
   <!-- System -->
-  <project path="system/bt" name="android_system_bt" remote="nad" />
   <project path="system/core" name="android_system_core" remote="nad" />
-  <project path="system/media" name="android_system_media" remote="nad" />
-  <project path="system/netd" name="android_system_netd" remote="nad" />
-  <project path="system/security" name="android_system_security" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
-  <project path="system/vold" name="android_system_vold" remote="nad" />
-  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
-  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="nad" />
-  <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
-  <project path="system/memory/lmkd" name="bananadroid/android_system_memory_lmkd" remote="github" revision="11"/>
-  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="nad" />
-  <project path="system/iorap" name="android_system_iorap" remote="nad" />
 
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nad" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nad" revision="11-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nad" revision="11-sn100x" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nad" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nad" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nad" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="nad" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
-  <project path="vendor/google/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="11" />
-  <project path="vendor/google/pixel" name="NusantaraProject/vendor_google_pixel" remote="gitlab" revision="11" />
-  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="nad" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
+
 </manifest>
