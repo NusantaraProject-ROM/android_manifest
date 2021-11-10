@@ -20,5 +20,5 @@ Lunch Command
 ```bash
   . build/envsetup.sh
   lunch nad_<device_codename>-buildtype
-  mka nad
+  make nad
 ```
