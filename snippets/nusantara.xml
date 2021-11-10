@@ -7,6 +7,10 @@
            revision="12"
            sync-j="16" />
 
+  <remote  name="wip"
+           fetch="https://github.com/Nusantara-ROM/" 
+           revision="12" />
+
   <!-- Device remote -->
   <remote  name="device"
            fetch="ssh://git@github.com/NusantaraROM-devices/"
@@ -84,21 +88,21 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
 
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="12-sm8250" remote="nad" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="12-sm8250" remote="nad" />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="12-sm8250" remote="nad" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="nad" revision="11-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="nad" revision="11-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="12-sm8150" remote="nad" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="12-sm8150" remote="nad" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="12-sm8150" remote="nad" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="wip" revision="12-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="wip" revision="12-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="wip" revision="12-msm8998" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="wip" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="wip" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="wip" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="12-sm8250" remote="wip" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="12-sm8250" remote="wip" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="12-sm8250" remote="wip" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="wip" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="wip" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="wip" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="12-sm8150" remote="wip" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="12-sm8150" remote="wip" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="12-sm8150" remote="wip" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="nad" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="nad" />
 
