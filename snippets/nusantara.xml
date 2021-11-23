@@ -25,6 +25,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <project path="manifest" name="android_manifest" remote="nad" />
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="libcore" name="android_libcore" remote="nad" />
