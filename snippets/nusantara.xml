@@ -137,6 +137,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nad" />
 
   <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="nad" />
   <project path="system/core" name="android_system_core" remote="nad" />
   <project path="system/media" name="android_system_media" remote="nad" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="nad" />
