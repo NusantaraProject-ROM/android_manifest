@@ -66,6 +66,7 @@
   <project path="external/v8" name="android_external_v8" remote="wip" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="wip" />
   <project path="external/sonivox" name="android_external_sonivox" remote="nad" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
@@ -187,6 +188,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="nad" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nad" />
   <project path="packages/apps/Dirac" name="android_packages_apps_Dirac" remote="nad" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="nad" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="wip" />
 
   <!-- Vendor -->
