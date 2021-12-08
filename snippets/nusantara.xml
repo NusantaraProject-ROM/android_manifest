@@ -62,6 +62,7 @@
   <project path="external/cpu_features" name="android_external_cpu_features" remote="nad" />
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="nad" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="nad" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
@@ -178,6 +179,7 @@
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/memory/lmkd" name="bananadroid/android_system_memory_lmkd" remote="github" revision="11"/>
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="nad" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="nad" />
   <project path="system/iorap" name="android_system_iorap" remote="nad" />
 
   <!-- Vendor -->
