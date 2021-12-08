@@ -85,6 +85,7 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/robolectric-shadows" />
+  <remove-project name="platform/external/tremolo" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -165,6 +166,7 @@
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/tools/hidl" />
+  <remove-project name="platform/system/tools/aidl" />
   <remove-project name="platform/system/iorap" />
 
 </manifest>
