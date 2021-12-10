@@ -148,6 +148,7 @@
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
+  <project path="vendor/lawnicons" name="ProtonAOSP/android_vendor_lawnicons" remote="github" revision="sc" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nad" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nad" />
