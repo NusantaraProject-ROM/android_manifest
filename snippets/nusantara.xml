@@ -95,9 +95,9 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nad" revision="12-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nad" revision="12-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="nad" revision="12-msm8998" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="11-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="11-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="12-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="12-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="12-msm8996" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="12-sm8250" remote="nad" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="12-sm8250" remote="nad" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="12-sm8250" remote="nad" />
