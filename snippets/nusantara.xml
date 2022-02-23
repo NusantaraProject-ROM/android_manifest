@@ -80,6 +80,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/bengal/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/bengal/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
@@ -104,6 +106,9 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="nad" revision="11-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="nad" revision="11-sdm845" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="nad" revision="11-sdm845" />
+  <project path="hardware/qcom-caf/bengal/audio" name="android_hardware_qcom_audio" revision="12-bengal" remote="nad" />
+  <project path="hardware/qcom-caf/bengal/display" name="android_hardware_qcom_display" revision="12-bengal" remote="nad" />
+  <project path="hardware/qcom-caf/bengal/media" name="android_hardware_qcom_media" revision="12-bengal" remote="nad" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="12-sm8150" remote="nad" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="12-sm8150" remote="nad" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="12-sm8150" remote="nad" />
