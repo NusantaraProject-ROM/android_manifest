@@ -1,6 +1,6 @@
 # Initialize Local Repository #
 ```bash
-repo init -u ssh://git@github.com/Nusantara-ROM/android_manifest.git -b 12
+repo init -u ssh://git@github.com/Nusantara-ROM/android_manifest.git -b 12.1
 
 # else if you want to sync with specific tags (this also specific features inline with selected tag version)
 

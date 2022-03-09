@@ -85,13 +85,13 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/BootPrebuilt/5.4/arm64" />
   <remove-project name="platform/packages/modules/BootPrebuilt/5.10/arm64" />
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/modules/adb" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
