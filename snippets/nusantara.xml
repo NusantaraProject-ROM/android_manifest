@@ -58,6 +58,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
@@ -158,6 +159,7 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
