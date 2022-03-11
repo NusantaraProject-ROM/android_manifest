@@ -123,6 +123,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nad" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="github" revision="11.0"/>
   <project path="packages/nusantara/fonts" name="android_packages_nusantara_fonts" remote="nad" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="nad" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="nad" />
