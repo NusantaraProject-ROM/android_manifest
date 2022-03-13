@@ -171,5 +171,5 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="nad" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nad" />
-  <project path="vendor/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="12" />
+  <project path="vendor/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="12.1" />
 </manifest>
