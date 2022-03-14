@@ -6,7 +6,7 @@ Getting started with NusantaraProject
 Initialize Local Repository
 -------------
 ```bash
-  repo init -u https://github.com/NusantaraProject-ROM/android_manifest -b 10
+  repo init -u https://github.com/NusantaraProject-ROM/android_manifest -b 10-mtk
 ```
 
 Syncing Repository
