@@ -53,7 +53,9 @@
   </project>
 
   <!-- External -->
+  <project path="external/colorkt" name="android_external_colorkt" remote="nad" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pe" />
+  <project path="external/themelib" name="android_external_themelib" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
