@@ -66,5 +66,6 @@
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-18.1" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" revision="lineage-18.1" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
 </manifest>

@@ -164,7 +164,6 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="nad" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
   <project path="system/vold" name="android_system_vold" remote="nad" />
-  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
   <!-- Vendor -->
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
