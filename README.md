@@ -9,7 +9,7 @@ repo init -u ssh://git@github.com/Nusantara-ROM/android_manifest.git -b refs/tag
 
 # Syncing Repository # 
 ```bash
-repo sync --force-sync --no-tags --no-clone-bundle
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 # Lunch Command # 
