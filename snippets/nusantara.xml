@@ -57,6 +57,7 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="pe" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="nad" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="nad" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
   <project path="external/libcxx" name="android_external_libcxx" remote="nad" />
   <project path="external/mksh" name="android_external_mksh" remote="nad" />
   <project path="external/themelib" name="android_external_themelib" remote="nad" />
@@ -65,6 +66,7 @@
   <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
+  <project path="external/zlib-ng" name="android_external_zlib" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
