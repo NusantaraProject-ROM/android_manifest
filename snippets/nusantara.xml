@@ -55,7 +55,9 @@
   <!-- External -->
   <project path="external/colorkt" name="android_external_colorkt" remote="nad" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pe" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="nad" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="nad" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="nad" />
   <project path="external/mksh" name="android_external_mksh" remote="nad" />
   <project path="external/themelib" name="android_external_themelib" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
