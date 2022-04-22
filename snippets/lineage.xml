@@ -66,8 +66,6 @@
   <!-- System -->
   <project path="system/extras" name="android_system_extras" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
-  <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-18.1" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" revision="lineage-18.1" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
 
 </manifest>
