@@ -52,6 +52,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
