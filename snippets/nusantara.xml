@@ -67,7 +67,7 @@
   <project path="external/tinyxml" name="android_external_tinyxml" remote="nad" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="nad" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
-  <project path="external/zlib-ng" name="android_external_zlib" remote="nad" />
+  <project path="external/zlib" name="android_external_zlib" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
