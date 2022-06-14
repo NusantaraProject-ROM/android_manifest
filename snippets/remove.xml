@@ -222,5 +222,6 @@
   <remove-project name="platform/system/libfmq" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/tools/aidl" />
 
 </manifest>
