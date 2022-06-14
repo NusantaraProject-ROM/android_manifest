@@ -48,6 +48,7 @@
   <project path="build/blueprint" name="android_build_blueprint" remote="nad" />
 
   <!-- External -->
+  <project path="external/aac" name="android_external_aac" remote="nad" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="nad" />
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="nad" />
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="wip" />
@@ -145,6 +146,7 @@
   <project path="system/libfmq" name="android_system_libfmq" remote="wip" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="nad" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="nad" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="nad" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="android_prebuilts_tools-extras" remote="nad" />
