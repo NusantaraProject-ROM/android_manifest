@@ -16,7 +16,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" revision="lineage-18.1" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
-  <project path="external/ntfs-3g" name="android_ntfs-3g" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" revision="lineage-18.1" />
 
   <!-- Hardware -->
