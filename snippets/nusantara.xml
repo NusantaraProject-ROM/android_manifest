@@ -74,6 +74,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="nad" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
