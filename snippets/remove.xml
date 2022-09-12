@@ -49,6 +49,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
@@ -104,6 +105,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
