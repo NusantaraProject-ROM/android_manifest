@@ -49,6 +49,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
@@ -118,6 +119,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/tools/mkbootimg" />

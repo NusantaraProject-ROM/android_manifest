@@ -10,6 +10,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/expat" name="android_external_expat" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
@@ -33,6 +34,7 @@
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
 
   <!-- System -->
+  <project path="system/nfc" name="android_system_nfc" remote="lineage" />
   <project path="system/security" name="android_system_security" remote="lineage" />
 
   <!-- Vendor NXP -->
