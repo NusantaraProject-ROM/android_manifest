@@ -66,6 +66,7 @@
   <project path="external/tremolo" name="android_external_tremolo" remote="nad" />
   <project path="external/okhttp" name="android_external_okhttp" remote="nad" />
   <project path="external/expat" name="android_external_expat" remote="nad" />
+  <project path="external/dtc" name="android_external_dtc" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
