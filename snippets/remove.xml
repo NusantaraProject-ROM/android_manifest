@@ -145,7 +145,6 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/apps/Car/Settings" />
-  <remove-project name="platform/packages/services/Car" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
