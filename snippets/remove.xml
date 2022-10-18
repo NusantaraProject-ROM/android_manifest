@@ -70,7 +70,6 @@
 
   <!-- External -->
   <remove-project name="platform/external/aac" />
-  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/expat" />
