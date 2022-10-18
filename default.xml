@@ -815,7 +815,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="snippets/remove.xml" />
-  <include name="snippets/private.xml" />
   <include name="snippets/nusantara.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/aospa.xml" />
