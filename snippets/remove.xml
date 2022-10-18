@@ -70,10 +70,8 @@
 
   <!-- External -->
   <remove-project name="platform/external/aac" />
-  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
-  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
@@ -159,7 +157,6 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
