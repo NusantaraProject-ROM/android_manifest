@@ -3,7 +3,7 @@
 
   <!-- Nusantara remote -->
   <remote  name="nad"
-           fetch="ssh://git@github.com/Nusantara-ROM/"
+           fetch="ssh://git@github.com/NusantaraProject-ROM/"
            revision="12.1"
            sync-j="16" />
 
