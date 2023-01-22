@@ -788,7 +788,5 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/nad.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/aospa.xml" />
-  <include name="snippets/aosip.xml" />
 
 </manifest>

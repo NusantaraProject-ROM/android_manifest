@@ -67,6 +67,11 @@
   <project path="external/okhttp" name="android_external_okhttp" remote="nad" />
   <project path="external/expat" name="android_external_expat" remote="nad" />
   <project path="external/dtc" name="android_external_dtc" remote="nad" />
+  <project path="external/libpng" name="android_external_libpng" remote="nad"  />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="nad" />
+  <project path="external/freetype" name="android_external_freetype" remote="nad" />
+  <project path="external/libaom" name="android_external_libaom" remote="nad" />
+  <project path="external/libexif" name="android_external_libexif" remote="nad" />
 
   <!-- Frameworks -->
   <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="nad" />
@@ -77,6 +82,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
   <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="nad" />
 
   <!-- Device -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
