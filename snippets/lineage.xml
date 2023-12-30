@@ -6,7 +6,7 @@
            revision="lineage-18.1" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="lineage" revision="lineage-18.1-legacy" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="lineage" revision="lineage-18.1" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
@@ -87,7 +87,7 @@
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" />
 
   <!-- System -->
-  <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-17.1" />
+  <project path="system/qcom" name="android_system_qcom" remote="lineage" revision="lineage-18.1" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" remote="lineage" />
